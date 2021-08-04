@@ -51,4 +51,3 @@ while True:
 
     cv2.imshow("Feed", img)
     cv2.waitKey(1)
-# ser1.close()
