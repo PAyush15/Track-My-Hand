@@ -8,4 +8,4 @@ Example: A robotic arm can be created and programmed to move the fingers in the 
 You need to install opencv-python, mediapipe and time libraries for this project
 
 Save both the HandTrackingModule and FingerCounter files and run the FingerCounter file for the same output as mine.
-HandTrackingMin can be used just for the purpose of tracking the hand, and one can modify it, according to his/her output needs.
+HandTrackingMin is the minimum code required for just tracking the hand, and one can modify it, according to his/her output needs.
