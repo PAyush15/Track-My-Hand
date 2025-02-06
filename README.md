@@ -13,6 +13,6 @@ Ensure you have the following dependencies installed before running the project.
 pip install opencv-python mediapipe
 
 **How to Run**:
-> Clone the repository.
-> Run FingerCounter.py to see track the hand and number of fingers.
-> If you only need basic hand tracking, use HandTrackingMin.py, which contains the minimal required code for tracking. You can modify it based on your needs to perform further actions.
+1, Clone the repository.
+2. Run FingerCounter.py to see track the hand and number of fingers.
+3. If you only need basic hand tracking, use HandTrackingMin.py, which contains the minimal required code for tracking. You can modify it based on your needs to perform further actions.
