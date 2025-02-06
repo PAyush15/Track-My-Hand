@@ -1,11 +1,16 @@
-# Finger_Counter
-Tracking the hand and calulating number of fingers open of the hand
+A hand tracking system that detects and counts the number of open fingers using OpenCV and MediaPipe.
 
-Using OpenCV and mediapipe, live hand tracking can be achieved and we can also display the number of open fingers. 
-This data can further be used to control of toggle the state of some sensors.
-Example: A robotic arm can be created and programmed to move the fingers in the same way as we do by live tracking.
+**Overview**:
+This project utilizes OpenCV and MediaPipe to track a hand and determine the number of open fingers. The captured data can be used to control external devices, such as toggling sensors or even replicating hand movements in a robotic arm.
 
-You need to install opencv-python, mediapipe and time libraries for this project
+**Use Case Example**:
+A robotic arm can be programmed to mimic real-time finger movements based on live tracking data.
 
-Save both the HandTrackingModule and FingerCounter files and run the FingerCounter file for the same output as mine.
-HandTrackingMin is the minimum code required for just tracking the hand, and one can modify it, according to his/her output needs.
+**Installation**:
+Ensure you have the following dependencies installed before running the project. 
+pip install opencv-python mediapipe
+
+**How to Run**:
+> Clone the repository.
+> Run FingerCounter.py to see track the hand and number of fingers.
+> If you only need basic hand tracking, use HandTrackingMin.py, which contains the minimal required code for tracking. You can modify it based on your needs to perform further actions.
