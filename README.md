@@ -1,3 +1,5 @@
+# Track-My-Hand
+
 A hand tracking system that detects and counts the number of open fingers using OpenCV and MediaPipe.
 
 **Overview**:
